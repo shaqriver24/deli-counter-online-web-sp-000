@@ -18,5 +18,5 @@ def now_serving(arr)
     puts "There is nobody waiting to be served!"
     return
   end
-  puts "Currently serving #{arr.shift}"
+  puts "Currently serving #{arr.shift}."
 end
