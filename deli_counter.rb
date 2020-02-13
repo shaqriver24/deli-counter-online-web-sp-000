@@ -10,5 +10,5 @@ end
 
 def take_a_number(arr, name)
   arr << name
-  puts "Welcome, #{name}. You are number #{arr.index(name)+1} in line"
+  puts "Welcome, #{name}. You are number #{arr.index(name)+1} in line."
 end
