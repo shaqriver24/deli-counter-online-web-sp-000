@@ -7,3 +7,7 @@ def line(arr)
   current_line = arr.each_with_index.map { |name, idx| "#{idx+1}. #{name}"}.join(" ")
   puts "The line is currently: #{current_line}"
 end
+
+def take_a_number(arr, name)
+
+end
